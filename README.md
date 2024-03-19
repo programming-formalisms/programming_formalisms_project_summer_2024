@@ -1,6 +1,6 @@
 # programming_formalisms_project_summer_2024
 
-![](programming_formalisms_student_team_autumn_2024_logo_50.png)
+![](programming_formalisms_student_team_summer_2024_logo_50.png)
 
 The Programming Formalisms project of summer 2024.
 
