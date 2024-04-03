@@ -25,7 +25,6 @@ when finding less and less nutrients.
 
  * [design](design/README.md): design documents
  * [learners](learners/README.md): place to keep notes and do exercises on an individual basis
- * [workflow](workflow/README.md): workflow procedures
 
 ## External links
 
