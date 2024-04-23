@@ -1,0 +1,1 @@
+```mermaidflowchart TD    A[Problem] --> B(Program)    B --> C{Choose format}    C -->|n.1| D{OO}    C -->|n.2| E{Functional}    D --> F[Python]    E --> G[Fortran]```
