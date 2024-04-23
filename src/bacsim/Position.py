@@ -1,6 +1,6 @@
 """A coordinate somewhere in space."""
 
-class Position{
+class Position:{
     - int x
     - int y
     - init()
