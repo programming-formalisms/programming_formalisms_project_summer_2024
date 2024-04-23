@@ -1,3 +1,5 @@
+classDiagram
+
      Visualisation--> Bacteria 
      Visualisation --> Nutrients
      Nutrients --> Position
