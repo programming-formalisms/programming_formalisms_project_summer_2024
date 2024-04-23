@@ -1,5 +1,5 @@
 '''mermaid
-flowchart TD
+graph TD
     A[Simulation] --> B[Simulation parameters]
     A[Simulation\n-simulation step] --> C[Coordinate system object\n -position]
     F[Movement type\n-run\n-tumble] --> D
