@@ -1,5 +1,5 @@
 ```mermaid
-classDiagram
+
 classDiagram
  Visualisation <-- Bacteria 
  Visualisation --> Simulation
