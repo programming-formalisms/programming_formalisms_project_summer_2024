@@ -9,6 +9,7 @@ Nutrients --> Simulation
 Bacteria --> Direction
 Bacteria --> Simulation
 Bacteria --> Position
+Simulation --> Visualisation
 
 class Visualisation{
     Bacteria
