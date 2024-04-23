@@ -2,9 +2,8 @@ def is_zero(val):
 
     if not isinstance(val,int):
         raise TypeError(f"{val} is not a integer")
-    if val == 0:
-        return True
-        
+    return val == 0
+
 assert is_zero(0)
 has_thrown = False
 try:
@@ -13,5 +12,6 @@ except TypeError:
     has_thrown = True
 
 assert has_thrown
+assert not is_zero(1)
+assert is_zero.__doc__
 
-assert is_zero(1)
