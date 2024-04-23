@@ -26,5 +26,5 @@ class Simulation{
 }
 
 Surface --> Bacteria
-Surface --> Nutrient
+Surface --> Nutrients
 ```
