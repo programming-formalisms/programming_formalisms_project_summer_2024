@@ -1,15 +1,17 @@
 
 ```mermaid
 classDiagram
-Visualisation--> Bacteria 
+Visualisation--> Bacteria
 Visualisation --> Nutrients
-Nutrients --> Position
-Nutrients --> Concentration
-Nutrients --> Simulation
-Bacteria --> Direction
 Bacteria --> Simulation
-Bacteria --> Position
 Simulation --> Visualisation
+Nutrients --> Simulation
+
+Nutrients --> Position
+Bacteria --> Position
+Bacteria --> Direction
+Nutrients --> Concentration
+
 
 class Visualisation{
     Bacteria
@@ -50,5 +52,6 @@ class Simulation{
     - run()
     - stop()
 }
+
 
 ```
