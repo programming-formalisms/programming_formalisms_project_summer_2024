@@ -1,4 +1,4 @@
-```
+```mermaid
 classDiagram
     Visualobj <-- Bacterial
     Visualobj <-- Nutrient
