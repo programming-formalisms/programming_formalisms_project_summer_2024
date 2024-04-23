@@ -1,30 +1,53 @@
 
 ```mermaid
 classDiagram
-class Surface{
-    - tuple coor
-}
+Visualisation--> Bacteria 
+Visualisation --> Nutrients
+Nutrients --> Position
+Nutrients --> Concentration
+Nutrients --> Simulation
+Bacteria --> Direction
+Bacteria --> Simulation
+Bacteria --> Position
 
-class Bacteria{
-    - tuple coor
-    - int init_dir
-    - isRun()
-    - isTumble()
-    - get_state()
-}
-
-class Nutrients{
-    - tuple coor
-    - getNutrients()
-}
-
-
-class Simulation{
+class Visualisation{
     Bacteria
     Nutrients
-    Surface
+    init()
+}
+class Bacteria{
+    - Position
+    - Direction
+    - init()
+    - get_run()
+    - get_tumble()
+}
+class Nutrients{
+    - Position
+    - Concentration
+    - init()
+}
+class Position{
+    - int x
+    - int y
+    - init()
+}
+class Direction{
+    - Position pos1
+    - Position pos2
+    - str pos
+    - init()
+}
+class Concentration{
+    - int x
+    - init ()
+}
+class Simulation{
+    - Bacteria
+    - Nutrients
+    - tumble_init()
+    - run()
+    - stop()
 }
 
-Bacteria --> Surface
-Nutrients --> Surface
 ```
