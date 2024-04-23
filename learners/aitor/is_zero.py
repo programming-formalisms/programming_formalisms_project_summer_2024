@@ -14,5 +14,3 @@ except TypeError:
 assert has_thrown
 assert not is_zero(1)
 assert is_zero.__doc__
-
-assert is_zero(0,1)
