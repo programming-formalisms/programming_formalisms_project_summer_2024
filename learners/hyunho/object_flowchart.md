@@ -1,4 +1,4 @@
-'''mermaid
+```mermaid
     graph TD
         A[Simulation] --> B[Simulation parameters]
         A[Simulation\n-simulation step] --> C[Coordinate system object\n -position]
@@ -6,4 +6,4 @@
         D[Bacteria\n -movement\n -longevity] --> C  
         E[Nutrient] --> C  
         A --> G[Visualization]
-'''
+```
