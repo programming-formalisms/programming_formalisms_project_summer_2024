@@ -19,3 +19,5 @@ What effects does pair programming have?
 - takes longer but the code might have less mistakes. Need infrastructure to support pair programming.
 - Other benefits such: the courtesy of rejecting phone calls or other distractions while working together, taking fewer breaks at agreed-upon intervals, or shared breaks to return phone calls (but returning to work quickly since someone is waiting).
 
+test
+
