@@ -1,0 +1,1 @@
+assert is_zero(0)
