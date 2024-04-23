@@ -1,13 +1,13 @@
 ```mermaid
+
 classDiagram
-Visualisation--> Bacteria 
-Visualisation --> Nutrients
-Nutrients --> Position
-Nutrients --> Concentration
-Nutrients --> Simulation
-Bacteria --> Direction
-Bacteria --> Simulation
-Bacteria --> Position
+Visualisation <-- Bacteria : put on
+ Visualisation <--> Simulation : run
+ Visualisation <-- Nutrients : put on
+ Bacteria --> Direction : has a
+ Bacteria --> Position : has a
+ Nutrients --> Position : has a
+ Nutrients --> Concentration : has a
 
 class Visualisation{
     Bacteria
