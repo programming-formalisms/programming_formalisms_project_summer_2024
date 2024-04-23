@@ -1,1 +1,8 @@
-
+     Visualisation--> Bacteria 
+     Visualisation --> Nutrients
+     Nutrients --> Position
+     Nutrients --> Concentration
+     Nutrients --> Iteration
+     Bacteria --> Direction
+     Bacteria --> Iteration
+     Bacteria --> Position
