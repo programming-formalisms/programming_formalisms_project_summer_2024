@@ -1,13 +1,12 @@
 """Tests all function in src.bacsim.richel_utils."""
+
 import unittest
 
-from src.bacsim.simulation import {
-    create_experiment,
-    create_parameters,
-    read_parameters_from_file,
-    run,
-    save,
-}
+from src.bacsim.simulation import create_experiment
+from src.bacsim.simulation import create_parameters
+from src.bacsim.simulation import read_parameters_from_file
+from src.bacsim.simulation import run
+from src.bacsim.simulation import save
 
 class TestExperiment(unittest.TestCase):
 
