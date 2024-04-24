@@ -10,4 +10,3 @@ classDiagram
     Bacterial : canMove()
     Nutrient  : +int concentration
     Nutrient  : conGradient(concentration,x-coord,y-coord)
-    
