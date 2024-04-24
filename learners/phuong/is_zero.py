@@ -1,4 +1,3 @@
-
 """ add comments from jinling"""
 def is_zero(x):
     """ Definition to check if int is zero """
