@@ -1,4 +1,4 @@
-"""Simulation class and associated functions"""
+"""Simulation class and associated functions."""
 
 def create_parameters():
     return []

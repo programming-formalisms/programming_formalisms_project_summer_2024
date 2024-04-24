@@ -1,4 +1,5 @@
 """Tests all function in src.bacsim.richel_utils."""
+
 import unittest
 
 from src.bacsim.richel_utils import is_zero
