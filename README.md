@@ -26,6 +26,16 @@ when finding less and less nutrients.
  * [design](design/README.md): design documents
  * [learners](learners/README.md): place to keep notes and do exercises on an individual basis
 
+## Files used for continuous integration scripts
+
+Filename                           |Descriptions
+-----------------------------------|------------------------------------------------------------------------------------------------------
+[mlc_config.json](mlc_config.json) |Configuration of the link checker
+[.spellcheck.yml](.spellcheck.yml) |Configuration of the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
+[.wordlist.txt](.wordlist.txt)     |Whitelisted words for the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
+[.pylintrc](.pylintrc)             |Configuration file for pylint
+[pyproject.toml](pyproject.toml)   |Configuration file of this package
+
 ## External links
 
  * [Programming Formalisms GitHub repository](https://github.com/UPPMAX/programming_formalisms)
