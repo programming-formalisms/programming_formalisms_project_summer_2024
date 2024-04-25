@@ -21,9 +21,10 @@ Visualization                    |Monika
 ```mermaid
 classDiagram
 
-  class Bacterial {
-    
-  }
+class Bacterium{
+        -float speed
+        -float direction
+               }
 
   class DNA {
     
