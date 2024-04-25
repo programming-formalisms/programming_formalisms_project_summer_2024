@@ -2,9 +2,7 @@ import unittest
 
 class GradientSim:
     """This class is simulates gradients"""
-   def is_int():
-    for x in range(0,10):
-        return x*0.1
+pass
 
 
 class GradientTest(unittest.TestCase):
