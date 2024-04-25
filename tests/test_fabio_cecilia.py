@@ -12,6 +12,6 @@ from src.bacsim.fabio_cecilia_utils import is_prime_fabio_cecilia
 class TestIsPrime(unittest.TestCase):
     def test_is_prime_fabio_cecilia(self):
         self.assertIsNotNone(is_prime_fabio_cecilia.__doc__)
-        self.assertFalse(is_prime_fabio_cecilia(4))
+        self.assertTrue(is_prime_fabio_cecilia(11))
 
         """Tests all function in src.bacsim.fabio_cecelia_utils."""
