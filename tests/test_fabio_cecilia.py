@@ -7,7 +7,10 @@ Created on Thu Apr 25 09:21:59 2024
 """
 
 import unittest
+from src.bacsim.fabio_cecilia_utils import is_prime_fabio_cecilia
 
-class TestSmall(unittest.TestCase):
-    def test_is_true(self):
-        self.assertIsTrue(1 + 1 == 2)
+class TestIsPrime(unittest.TestCase):
+    def test_is_prime(self):
+        self.assertIsNotNone(is_prime.__doc__)
+
+        """Tests all function in src.bacsim.fabio_cecelia_utils."""
