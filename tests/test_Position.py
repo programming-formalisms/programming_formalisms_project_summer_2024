@@ -9,4 +9,5 @@ class TestPosition(unittest.TestCase):
     """Class to test Position class"""
 
     def test_Position(self):
-        self.assertIsNone(Position)
+        self.assertIsNotNone(Position)
+        self.assertIsNotNone(Position.x)
