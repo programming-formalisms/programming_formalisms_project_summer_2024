@@ -8,6 +8,6 @@
         setspeed()
 """
 
-class bacterial:
+class Bacterium:
 
     """Where am I?.""" 
