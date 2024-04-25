@@ -1,4 +1,4 @@
-## practise ex2 
+""" add comments from jinling"""
 def is_zero(x):
     """ Definition to check if int is zero """
     if not isinstance(x, int):
