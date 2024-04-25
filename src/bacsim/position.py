@@ -1,0 +1,13 @@
+"""A coordinate somewhere in space.
+
+class Position:{
+    - int x
+    - int y
+    - init()
+}
+"""
+
+class position:
+
+    """Where am I?."""
+  
