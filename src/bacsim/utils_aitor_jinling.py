@@ -9,4 +9,10 @@ assert is_even(0)
 assert not is_even(1)
 assert is_even.__doc__
 
-assert is_even(2.4) 
+has_thrown = False
+try:
+    is_even("Aaaa")
+except TypeError:
+    has_thrown = True
+
+assert has_thrown
