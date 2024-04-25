@@ -1,6 +1,6 @@
 import unittest
 
-from src.test_is_even_jenny_monika import is_even
+from is_even_jenny_monika import is_even
 
 class TestIsEven(unittest.TestCase):
 
