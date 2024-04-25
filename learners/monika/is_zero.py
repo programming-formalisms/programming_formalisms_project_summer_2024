@@ -1,7 +1,9 @@
+"""A function to check if a number is 0."""
 def is_zero(x):
-    """Determines if the input is one integer that is zero"""
+    """Determine if the input is one integer that is zero."""
     if not isinstance(x, int):
-        raise TypeError("'x' must be of type int")
+        message = "The input must be an integer."
+        raise TypeError(message)
     if x == 0:
         return True
     return False
