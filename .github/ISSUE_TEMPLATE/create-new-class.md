@@ -7,14 +7,13 @@ assignees: ''
 
 ---
 
-In [the class design document](https://github.com/programming-formalisms/programming_formalisms_example_project/blob/main/design/class_diagram_richel.puml), the class in the title
-is mentioned. Create it!
+In the class design document of this project (`design/README.md`), the class in the title is mentioned. Create it!
 
 # Procedure
 
  * [ ] Create a file for the class implementation
-   with name `src/pf_example/[class_name].py`,
-   e.g. `src/pf_example/simulation_parameters.py`
+   with name `src/bacsim/[class_name].py`,
+   e.g. `src/bacsim/simulation_parameters.py`
  * [ ] Create a file for the class tests,
    with name `tests/test-[class_name].py`,
    e.g. `tests/test-simulation_parameters.py`
@@ -33,17 +32,17 @@ class SimulationParameters:
    for example:
 
 ```python
-"""Tests all function in src.pf_example.simulation_parameters."""
+"""Tests all function in src.bacsim.simulation_parameters."""
 import unittest
 
-from src.pf_example.simulation_parameters import (
+from src.bacsim.simulation_parameters import (
     SimulationParameters,
 )
 
 
 class TestSimulationParameters(unittest.TestCase):
 
-    """Class to test the code in src.pf_example.simulation_parameters."""
+    """Class to test the code in src.bacsim.simulation_parameters."""
 
     def test_can_create_params(self):
         """#14: Can construct a SimulationParameters."""
