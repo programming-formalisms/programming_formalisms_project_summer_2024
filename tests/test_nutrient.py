@@ -8,4 +8,6 @@ class TestNutrients(unittest.TestCase):
 
     """Class to test the functions in src.bacsim.nutrient"""
 
+    def test_Nutrient(self):
+        self.assertIsNotNone(Nutrient.__doc__)
     
