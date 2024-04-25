@@ -11,6 +11,5 @@ class TestPhuonglUtils(unittest.TestCase):
                 self.assertTrue(is_zero(0.0))
                 self.assertFalse(is_zero(1))
                 self.assertRaises(TypeError, is_zero, {1, 2})
-                self.assertRaises(TypeError, is_zero, "I am a string")
+                self.assertRaises(TypeError, is_zero, "I am a string"):while
 
-        
