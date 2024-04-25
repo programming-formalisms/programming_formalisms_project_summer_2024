@@ -14,5 +14,5 @@ class DNATest(unittest.TestCase):
     def test_is_DNA_notNone(self): 
         self.assertIn("t",DNA.DNA_string(3))
 
-    def test_is_DNA_base():
+    def test_is_DNA_base(self):
         self.assertEqual(DNA.DNA_string(3),("A-T" or "G-C"))
