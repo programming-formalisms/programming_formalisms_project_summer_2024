@@ -10,5 +10,8 @@ class TestIsEven(unittest.TestCase):
     def test_is_even_false(self):
         self.assertEqual(is_even(3), False)
 
+    """def test_is_even_not_number(self):"""
+    """    self.assertEqual(is_even("hhjhj"), "Warning! The input must be an integer")"""
+
     def test_is_even_not_number(self):
-        self.assertEqual(is_even(""), "Warning! The input must be an integer")
+        self.assertRaises(TypeError,is_even, "")
