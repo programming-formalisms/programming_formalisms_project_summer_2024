@@ -7,7 +7,7 @@ class Position:{
 }
 """
 
-class position:
+class Position:
 
     """Where am I?."""
   
