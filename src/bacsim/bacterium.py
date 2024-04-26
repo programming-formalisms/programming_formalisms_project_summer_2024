@@ -1,8 +1,5 @@
 """A coordinate somewhere in space."""
-""""
 """
-
-class Bacterium:
 class Bacterium{
         -float speed
         -float direction
@@ -11,4 +8,8 @@ class Bacterium{
         eatNutrient()
         setspeed()
         }
+"""
+
+class Bacterium:
+
     """Where am I?.""" 
