@@ -1,5 +1,7 @@
 # programming_formalisms_project_summer_2024
 
+[![codecov](https://codecov.io/github/programming-formalisms/programming_formalisms_project_summer_2024/branch/main/graph/badge.svg?token=KbSwhVmhn6)](https://codecov.io/github/programming-formalisms/programming_formalisms_project_summer_2024)
+
 ![](programming_formalisms_student_team_summer_2024_logo_50.png)
 
 The Programming Formalisms project of summer 2024.
