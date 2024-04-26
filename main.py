@@ -7,22 +7,12 @@ import cProfile
 import sys
 
 from bacsim.simulation import (
-  create_experiment,
-  create_parameters,
-  read_parameters_from_file,
-  run,
-  save,
+  run_experiment,
 )
-
-def do_workflow():
-    parameters = read_parameters_from_file("parameters.txt")
-    experiment = create_experiment(parameters)
-    results = run(experiment)
-    save(results, "results.csv")
 
 def do_benchmark():
     """Benchmark this project."""
-    cProfile.run("do_workflow()")
+    cProfile.run("run_experiment()")
 
 if __name__ == "__main__":
 
@@ -34,6 +24,6 @@ if __name__ == "__main__":
         do_benchmark()
     else:
         print("Running workflow") # noqa: T201 print is used as a stub
-        do_workflow()
+        run_experiment()
 
 
