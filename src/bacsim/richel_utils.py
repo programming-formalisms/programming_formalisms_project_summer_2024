@@ -1,4 +1,4 @@
-"""Richel's utility functions"""
+"""Richel's utility functions."""
 
 def is_zero(x):
     """Determine if `x` is zero.
