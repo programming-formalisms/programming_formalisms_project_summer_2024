@@ -66,5 +66,6 @@ Bacterium *-- Movement
 Model *-- Parameters
 Simulation ..> Model
 Simulation ..> Visualization
+Simulation <-- Parameters
 
 ```
