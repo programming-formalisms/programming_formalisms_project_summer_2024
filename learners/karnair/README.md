@@ -22,8 +22,7 @@ Visualization                    |Monika
 classDiagram
 
 class Bacterium{
-        -float speed
-        -float direction
+    
                }
 
   class DNA {
@@ -35,6 +34,7 @@ class Bacterium{
   }
 
   class GradientSim {
+
     
   }
 
@@ -59,6 +59,11 @@ class Bacterium{
   }
 
   class Simulation {
+    create_parameters()
+    read_parameters_from_file()
+    create_experiment()
+    run()
+    save()
     
   }
 
