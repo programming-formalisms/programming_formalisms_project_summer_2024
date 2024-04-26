@@ -1,6 +1,7 @@
+"""Develop is_zero."""
 
 def is_zero(x):
-    """Determines if the input is one integer with value zero"""
+    """Determines if the input is one integer with value zero."""
     if not isinstance(x, int):
         raise TypeError("'x' must be of type int")
     if x == 0:

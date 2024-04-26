@@ -1,3 +1,4 @@
+"""Develop is_zero."""
 
 def is_zero(x):
   """Returns true if x is one integer that is zero.
@@ -13,7 +14,7 @@ assert not is_zero(1)
 
 has_thrown = False
 try:
-    is_zero("wiefgoweubfipf")
+    is_zero("nonsense.")
 except TypeError:
     has_thrown = True
 assert has_thrown
