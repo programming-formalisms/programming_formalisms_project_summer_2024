@@ -21,6 +21,14 @@ when finding less and less nutrients.
 
 > Image from [coursehero](https://www.coursehero.com/study-guides/microbiology/unique-characteristics-of-prokaryotic-cells/)
 
+## Usage
+
+```python
+from bacsim.simulation import run_experiment
+run_experiment("parameter_filename.txt", "results_filename.csv")
+```
+
+
 ## Internal links
 
  * [design](design/README.md): design documents

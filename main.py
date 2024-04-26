@@ -10,9 +10,12 @@ from bacsim.simulation import (
   run_experiment,
 )
 
+def run_here():
+    run_experiment("parameter_filename.txt", "results_filename.csv")
+
 def do_benchmark():
     """Benchmark this project."""
-    cProfile.run("run_experiment()")
+    cProfile.run("run_here()")
 
 if __name__ == "__main__":
 
@@ -24,6 +27,4 @@ if __name__ == "__main__":
         do_benchmark()
     else:
         print("Running workflow") # noqa: T201 print is used as a stub
-        run_experiment()
-
-
+        run_here()
