@@ -18,6 +18,7 @@ def run(experiment):
 
 def run_experiment(parameters_filename, results_filename):
     """"Run an experiment for a parameters file and save the results to file."""
+    # Untested, to show that Codecov works fine :-)
     print("Reading file: ", parameters_filename) # noqa: T201
     print("Running simulation...") # noqa: T201
     print("Saving results to: ", results_filename) # noqa: T201
