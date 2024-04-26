@@ -18,9 +18,9 @@ def run(experiment):
 
 def run_experiment(parameters_filename, results_filename):
     """"Run an experiment for a parameters file and save the results to file."""
-    print("Reading file: ", parameters_filename)
-    print("Running simulation...")
-    print("Saving results to: ", results_filename)
+    print("Reading file: ", parameters_filename) # noqa: T201
+    print("Running simulation...") # noqa: T201
+    print("Saving results to: ", results_filename) # noqa: T201
 
 def save(results, filename):
     """"Save the experimental results to file."""

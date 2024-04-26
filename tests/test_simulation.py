@@ -27,7 +27,7 @@ class TestExperiment(unittest.TestCase):
         """"Get results from a run."""
         experiment = create_experiment()
         # Should pass without error
-        results = run(experiment)
+        results = run(experiment) # noqa: F841
     def test_save(self):
         """"Save results from a run."""
         experiment = create_experiment()
@@ -37,7 +37,7 @@ class TestExperiment(unittest.TestCase):
     def test_create_an_experiment_with_parameters(self):
         """"An experiment has parameters."""
         parameters = create_parameters()
-        experiment = create_experiment(parameters)
+        experiment = create_experiment(parameters) # noqa: F841
     def test_read_parameters_from_file(self):
         """"Parameters can be read from file."""
         # Should pass without errors
