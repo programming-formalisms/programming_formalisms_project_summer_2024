@@ -1,7 +1,6 @@
 
 def is_zero(x):
-  """
-  Returns true if x is one integer that is zero.
+  """Returns true if x is one integer that is zero.
   Raises an exception when x is not an integer.
   """
   if not isinstance(x, int):
