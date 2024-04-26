@@ -4,6 +4,7 @@ Project used in the UPPMAX Programming Formalisms Summer 2024 course.
 """
 
 import cProfile
+import sys
 
 from bacsim.simulation import (
   create_experiment,
